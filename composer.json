@@ -3,17 +3,6 @@
     "description": "A simple cache layer for Eloquet Model in laravel",
     "require": {},
     "require-dev": {
-        "behat/behat": "^3.3",
-        "behat/mink": "^1.7",
-        "behat/mink-extension": "^2.2",
-        "fzaninotto/faker": "~1.4",
-        "laracasts/behat-laravel-extension": "^1.0",
-        "phpspec/phpspec": "^3.2",
-        "mockery/mockery": "~1.0",
-        "orchestra/database": "~3.5",
-        "orchestra/testbench": "~3.5",
-        "phpunit/phpunit": "~6.0",
-        "orchestra/testbench-dusk": "~3.5"
     },
     "autoload": {
         "psr-4": {
