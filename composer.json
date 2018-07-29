@@ -1,0 +1,39 @@
+{
+    "name": "ney/laravel-remember",
+    "type": "laravel package for data cache",
+    "require": {},
+    "require-dev": {
+        "behat/behat": "^3.3",
+        "behat/mink": "^1.7",
+        "behat/mink-extension": "^2.2",
+        "fzaninotto/faker": "~1.4",
+        "laracasts/behat-laravel-extension": "^1.0",
+        "phpspec/phpspec": "^3.2",
+        "mockery/mockery": "~1.0",
+        "orchestra/database": "~3.5",
+        "orchestra/testbench": "~3.5",
+        "phpunit/phpunit": "~6.0",
+        "orchestra/testbench-dusk": "~3.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ney\\Laravel\\Remember": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Ney\\Laravel\\Remember\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Ney\\Laravel\\Remember\\ServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "stable"
+}
