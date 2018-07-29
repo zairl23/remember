@@ -17,7 +17,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Ney\\Laravel\\Remember": "src/"
+            "Ney\\Laravel\\Remember\\": "src/"
         }
     },
     "autoload-dev": {
