@@ -5,7 +5,6 @@ namespace Ney\Laravel\Remember;
 use Illuminate\Support\ServiceProvider as BaseServiceProvider;
 use Illuminate\Foundation\AliasLoader;
 
-
 class ServiceProvider extends BaseServiceProvider
 {
     public function boot()
