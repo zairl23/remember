@@ -2,10 +2,10 @@
 
 namespace Ney\Laravel\Remember;
 
-use Illuminate\Support\ServiceProvider as BaseServiceProvider;
 use Illuminate\Foundation\AliasLoader;
+use Illuminate\Support\ServiceProvider as BaseServiceProvider;
 
-class ServiceProvider extends BaseServiceProvider
+class LaravelServiceProvider extends BaseServiceProvider
 {
     public function boot()
     {
@@ -17,5 +17,7 @@ class ServiceProvider extends BaseServiceProvider
            'Remember', Facades\Remember::class
         );
 
+        // you should load your own reminders like routes/reminders.php below
+        //require __DIR__ . "/routes/reminders.php";
     }
 }

@@ -4,6 +4,7 @@ namespace Ney\Laravel\Remember;
 
 use Cache;
 use Closure;
+use Exception;
 use Ney\Laravel\Remember\Contracts\Remember as RememberContract;
 
 class Remember implements RememberContract
@@ -17,7 +18,7 @@ class Remember implements RememberContract
                 return $this->memories[$key]();
             }
 
-            return [];
+            throw new Exception("Can't remember the cache source data, please register reminders in routes/reminders.php file");
 
         });
     }

@@ -1,6 +1,6 @@
 {
-    "name": "ney/laravel-remember",
-    "description": "A simple cache layer for Eloquet Model in laravel",
+    "name": "ney/remember",
+    "description": "A simple cache layer for laravel or lumen project",
     "require": {},
     "require-dev": {
     },
